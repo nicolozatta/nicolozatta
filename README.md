@@ -22,24 +22,23 @@ The optimization considers a 24-hour horizon with a 15-minute time resolution.
 
 **Reference publication:**
 
-Zatta, N., Ceccanti, F., Baccioli, A., & Bischi, A. (2026). *MILP-based optimal scheduling of domestic heat pumps with building dynamics and variable COP*. Applied Thermal Engineering, 303, 132470.
+Zatta, N., Ceccanti, F., Baccioli, A., & Bischi, A., *MILP-based optimal scheduling of domestic heat pumps with building dynamics and variable COP*, Applied Thermal Engineering, 2026, 303, 132470, 10.1016/j.applthermaleng.2026.132470.
 
-https://doi.org/10.1016/j.applthermaleng.2026.132470
+### 2. MILP-based pptimization of integrated energy systems for tissue paper production
 
-### 2. MILP-Based Optimization of Integrated Energy Systems for Tissue Paper Production
-
-**Keywords:** Mixed-Integer Linear Programming, Industrial Decarbonization, Energy System Integration, Optimal Scheduling, Techno-Economic Optimization.
+*Keywords*: Mixed-Integer Linear Programming, Paper, Energy System Integration, Optimal Scheduling, Techno-Economic Optimization.
 
 A MILP-based optimization framework developed to investigate the decarbonization of tissue paper manufacturing through the optimal selection, sizing, and operation of integrated energy technologies.
 
 The framework includes:
 
-- Integrated modeling of electricity, steam, and high-temperature air requirements in tissue paper production.
-- Optimal technology selection and sizing, including electric and fuel-fired boilers, heat pumps, combined heat and power units, photovoltaics, and battery storage.
+- Time-series clustering and temporal representation: the annual operating horizon is modeled with hourly resolution using representative two-week periods, identified through clustering of time-dependent electricity market prices, grid carbon intensity, and photovoltaic generation profiles.
+- Integrated modeling of electricity, steam and high-temperature air requirements in tissue paper production.
+- Optimal technology selection and sizing, including electric and fuel-fired boilers, heat pumps, combined heat and power units, photovoltaics and battery storage.
 - Production scheduling and intermediate product storage to investigate operational flexibility.
-- Optimization of energy imports, exports, and technology operation under time-varying electricity prices.
+- Optimization of energy imports, exports and technology operation under time-varying electricity prices.
 - Techno-economic and environmental assessment over a 20-year horizon.
-- Comparative analysis of different geographical scenarios, production capacities, fuel availability, and system configurations.
+- Comparative analysis of different geographical scenarios (Italy, Germany and Spain), production capacities, fuel availability and system configurations.
 
 The model is intended to support the identification of cost-effective industrial decarbonization strategies while accounting for the interactions between manufacturing processes and energy supply systems.
 
@@ -48,23 +47,20 @@ The model is intended to support the identification of cost-effective industrial
 ## Code Availability and Licensing
 
 The research codes are developed primarily for scientific and academic applications.
-
 Software associated with the projects is distributed under the **PolyForm Noncommercial License 1.0.0**, subject to the conditions described below.
 
-### Academic and Noncommercial Use
+*Academic and noncommercial use*
 
-The software may be used for academic research, educational activities, and other purposes permitted under the PolyForm Noncommercial License 1.0.0.
-
+The software may be used for academic research, educational activities and other purposes permitted under the PolyForm Noncommercial License 1.0.0.
 Academic users are requested to acknowledge the original authors and cite the relevant scientific publications when using the models, methodologies, or results in their research.
 
-### Commercial Use
+*Commercial use*
 
 Commercial use, including integration into commercial software, industrial applications, consulting services, or proprietary products, requires prior written authorization and a separate licensing agreement with the relevant copyright holder(s).
 
 For commercial licensing inquiries, please contact:
-
-- **nickzat97@gmail.com**
-- **nicolo.zatta@ing.unipi.it**
+- nickzat97@gmail.com
+- nicolo.zatta@ing.unipi.it
 
 ### Repository Access
 
@@ -74,8 +70,8 @@ Source codes and supporting materials may be maintained in private repositories 
 
 **Nicolò Zatta, PhD**
 
-Postdoctoral Researcher  
+Postdoctoral researcher  
 University of Pisa, Italy
 
-Email: nickzat97@gmail.com  
-Institutional email: nicolo.zatta@ing.unipi.it
+nickzat97@gmail.com  
+nicolo.zatta@ing.unipi.it
