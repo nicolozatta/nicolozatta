@@ -10,16 +10,14 @@ The following projects involve mathematical optimization frameworks developed fo
 
 ### 1. MILP-based optimal scheduling of domestic heat pumps
 
-*_Keywords: Mixed-Integer Linear Programming, Heat Pumps, Building Thermal Dynamics, Variable COP, Demand Response.
+*Keywords*: Mixed-Integer Linear Programming, Heat Pumps, Building Thermal Dynamics, Variable COP, Demand Response.
 
 A Mixed-Integer Linear Programming (MILP) framework for the optimal scheduling of domestic heat pumps, integrating:
-
 - Multi-node resistive-capacitive (RC) modeling of building thermal dynamics.
-- Piecewise-linear representation of heat pump performance, accounting for variations in COP with outdoor temperature, supply water temperature, and part-load operation.
+- Piecewise-linear representation of heat pump performance at various outdoor temperature accounting for supply water temperature and part-load operation changes.
 - Radiator heat transfer modeling and indoor thermal comfort constraints.
 - Cost-optimal scheduling under time-varying electricity prices.
 - Demand-response strategies exploiting building thermal inertia as an indirect energy storage resource.
-
 The optimization considers a 24-hour horizon with a 15-minute time resolution.
 
 **Reference publication:**
